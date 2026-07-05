@@ -1,14 +1,6 @@
 import streamlit as st
 #4B1426
 #FFEED6
-#17433F
-#A5AF79
-
-#f3f6f8	(243,246,248)
-#2c6975	(44,105,117)
-#253243	(37,50,67)
-#eaf2f5	(234,242,245)
-#c94c8a	(201,76,138)
 
 def style_background_home():
 
@@ -16,12 +8,12 @@ def style_background_home():
         <style>
                 
             .stApp {
-                background: linear-gradient(to right, #FFFFFF, #FFEED6);
+                background: #CFB290;
             }
                 
             .stApp div[data-testid="stColumn"] {
-                background-color: white !important;
-                padding: 1.5rem !important;
+                background-color: #EBEDE3 !important;
+                padding: 2rem !important;
                 border-radius: 1.5rem !important;    
             }
 
@@ -47,7 +39,8 @@ def style_base_layout():
     st.markdown("""
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        
+        @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Passion+One:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+                
         /* Hide Top bar of streamlit */
 
                 #MainMenu, footer, header {
@@ -59,7 +52,7 @@ def style_base_layout():
                 }
 
                 h1 {
-                    font-family: 'Poppins', sans-serif !important;
+                    font-family: 'Bungee', cursive !important;
                     font-size: 3.5rem !important;
                     line-height: 0.9 !important;
                     margin-bottom: 0rem !important;
@@ -68,7 +61,7 @@ def style_base_layout():
                 }
 
                 h2 {
-                    font-family: 'Poppins', sans-serif !important;
+                    font-family: 'Bungee', cursive !important;
                     font-size: 2.5rem !important;
                     line-height: 1 !important;
                     margin-bottom: 0rem !important;
@@ -98,7 +91,7 @@ def style_base_layout():
                     transition: transform 0.25s ease-in-out !important;
                 }
 
-                button[kind="tirtary"] {
+                button[kind="tertary"] {
                     border-radius: 1.5rem !important;
                     background: black !important;
                     color: white !important;

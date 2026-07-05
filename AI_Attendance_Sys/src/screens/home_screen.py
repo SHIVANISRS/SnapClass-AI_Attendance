@@ -9,7 +9,7 @@ def home_screen():
     style_background_home()
     style_base_layout()
 
-    col1, col2 = st.columns(2, gap="large")
+    col1, col2 = st.columns(2, gap="small")
 
     with col1:
         st.header("I'm Student")
@@ -25,9 +25,3 @@ def home_screen():
             st.rerun()
 
     footer_home()
-            
-
-
-#https://ibb.co/pvb2Fmcw  - Teacher
-#https://ibb.co/SXTJxCm0  - Student
-#https://ibb.co/QvMwCx0F  - Attendance
