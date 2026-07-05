@@ -1,6 +1,7 @@
 import streamlit as st
 #4B1426
 #FFEED6
+#CFB290
 
 def style_background_home():
 
@@ -8,11 +9,11 @@ def style_background_home():
         <style>
                 
             .stApp {
-                background: #CFB290;
+                background: #EBEDE3;
             }
                 
             .stApp div[data-testid="stColumn"] {
-                background-color: #EBEDE3 !important;
+                background-color: white !important;
                 padding: 2rem !important;
                 border-radius: 1.5rem !important;    
             }
@@ -27,7 +28,7 @@ def style_background_dashboard():
         <style>
                 
             .stApp {
-                background: linear-gradient(to right, #FFFFFF, #FFEED6);
+                background: #EBEDE3;
             }
 
         </style>
