@@ -1,7 +1,4 @@
 import streamlit as st
-#4B1426
-#FFEED6
-#CFB290
 
 def style_background_home():
 
@@ -76,7 +73,7 @@ def style_base_layout():
 
                 button {
                     border-radius: 1.5rem !important;
-                    background: #4B1426 !important;
+                    background-color: #4B1426 !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;
@@ -85,16 +82,16 @@ def style_base_layout():
 
                 button[kind="secondary"] {
                     border-radius: 1.5rem !important;
-                    background: #17433F !important;
+                    background-color: #17433F !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;
                     transition: transform 0.25s ease-in-out !important;
                 }
 
-                button[kind="tertary"] {
+                button[kind="tertiary"] {
                     border-radius: 1.5rem !important;
-                    background: black !important;
+                    background-color: black !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;
